@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>5.2.0</version>
+            <version>5.4.0</version> <!-- UPDATED to the latest version -->
             <scope>provided</scope>
         </dependency>
     </dependencies>
