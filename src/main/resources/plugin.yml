@@ -1,0 +1,13 @@
+name: InteractSpec
+version: 1.0
+main: com.visualtfx.interactspec.InteractSpec
+api-version: '1.21'
+author: YourName
+description: A spectator plugin for OPs.
+depend: [ProtocolLib]
+
+commands:
+  interactspec:
+    description: Toggles interactive spectator mode.
+    usage: /interactspec
+    permission: interactspec.use
