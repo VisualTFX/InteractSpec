@@ -15,7 +15,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4 # This line is updated
         with:
           name: InteractSpec-Plugin
           path: target/interactspec-1.0.jar
